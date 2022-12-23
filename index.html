@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Rating state start -->
+  <div class="container" id="rateask">
+    <div class="img_container"><img src="images/icon-star.svg"></div>
+    <h1>Notez nos services !</h1>
+
+    <p>Êtes-vous satisfaits de nos services ? Dites-nous tout, vos retours nous aident à nous améliorer chaque jours !
+    </p>
+
+    <div class="form">
+      <button class="rate">1</button>
+      <button class="rate">2</button>
+      <button class="rate">3</button>
+      <button class="rate">4</button>
+      <button class="rate">5</button>
+    </div>
+
+    <button class="submit" id="submit">Envoyer</button>
+  </div>
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+  <div class="container second" id="popup">
+
+    <img src="./images/illustration-thank-you.svg">
+
+    <div class="selection"><span id="selected-rate"></span></div>
+
+    <h2>Merci !</h2>
+
+    <p>Nous vous remercions pour le temps accordé à cette évaluation. N'hésitez pas à nous contacter si besoin.</p>
+  </div>
+  <!-- Thank you state end -->
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
